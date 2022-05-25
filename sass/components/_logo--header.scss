@@ -1,0 +1,10 @@
+.logo--header {
+    color: $black-text-color;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+    @media screen and (max-width:1199px) {
+        display: flex;
+        align-content: flex-start;
+    }
+}
