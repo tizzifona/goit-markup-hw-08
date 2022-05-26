@@ -16,6 +16,9 @@
     &:active {
         fill: $accent-color;
     }
+    &.is-open {
+        position: fixed;
+    }
 }
 .main-nav__button .icon-cross {
     display: none;
@@ -55,7 +58,7 @@
         width: 100%;
         height: 100%;
         background-color: $white-bg;
-        
+        padding-left: 40px;
     }
 }
 .mobile-nav {
@@ -63,10 +66,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-        padding-top: 32px;
-        padding-bottom: 48px;
-        padding-left: 40px;
-}
+}        
 .mobile-nav__link {
     display: block;
     color: $main-text-color;
@@ -107,15 +107,12 @@
 .mobile-contacts__link--phone {
     font-size: 34px;
     color: $accent-color;
-    margin-top: 302px;
 }
 .mobile__social {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 64px;
 }
 .mobile__social-btn {
-    padding-left: 10px;
     &:not(:last-child) {
         border-right: 1px solid $input-border-color;
         padding-right: 10px;

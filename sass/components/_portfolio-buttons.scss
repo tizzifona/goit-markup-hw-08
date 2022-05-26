@@ -34,7 +34,16 @@
     }
 }
 
-@media (min-width:480px){
+@media (min-width:320px) {
+    .portfolio-btns {
+        justify-content: left;
+    }
+
+    .portfolio-btns__button {
+            margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:480px){
     .portfolio-btns {
         justify-content: left;
     }
@@ -44,7 +53,7 @@
         }
     }
 }
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .portfolio-btns {
         justify-content: center;
     }
@@ -54,7 +63,7 @@
         }
     }
 }
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .portfolio-btns {
         margin-bottom: 50px;
     }
